@@ -1,0 +1,65 @@
+.ui_wrapper_01 {
+    width: 755px;
+    height: 290px;
+    border-radius: 15px;
+    background: #FBFCFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+}
+.left_col{
+    width: 355px;
+    height: 262px;
+    background: #8893A5;
+    margin-left: 15px;
+    border-radius: 14px;
+}
+.right_col{
+    width: 360px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.wrap_right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wrap_right span{
+    font-size: 18px;
+    font-family: Poppins-SemiBold;
+}
+.wrap_right p{
+    font-size: 12px;
+    font-family: Poppins-Medium;
+    color: #757575;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #E4FF94;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar-pic{
+    width: 38px;
+    height: 38px;
+}
+.lower_ui{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.aside_ui span{
+    font-size: 12px;
+    margin: 0;
+}
+.aside_ui p{
+    font-size: 11px;
+    font-family: Poppins-Medium;
+    margin: 0;
+}
