@@ -1,4 +1,3 @@
-import React from 'react';
 import './uicard_01.css';
 import AvatarPic from '../../../../public/avatar.svg'
 function Uicard_01(){

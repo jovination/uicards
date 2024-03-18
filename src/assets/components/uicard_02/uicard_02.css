@@ -1,0 +1,36 @@
+.ui_wrapper_02{
+    width: 190px;
+    height: 290px;
+    border-radius: 15px;
+    background: #FBFCFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 5px 10px rgba(100,100,100,0.11);}
+.btn_seg{
+    width: 150px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.btn_ui{
+    width: 35px;
+    height: 35px;
+    background: #EEF2F5;
+    border-radius: 6px;
+}
+.btnF{
+    font-family: Poppins-Medium;
+    font-size: 13px;
+    color: #ABB0B4;
+}
+.btns_wrap{
+    width: 140px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

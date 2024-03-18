@@ -24,8 +24,27 @@
 }
 body{
   background: #E9EAEE;
+
 }
 .wrapper_container{
-  width: 1100px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
   margin: 0 auto;
+}
+.upper_wrapper{
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  gap: 50px;
+
+}
+.lower_wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }

@@ -1,0 +1,38 @@
+.ui_wrapper_03{
+    width: 255px;
+    height: 375px;
+    background: #FBFCFE;
+    border-radius: 15px;
+    box-shadow: 1px 6px 10px rgba(100,100,100,0.11);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.upper_col{
+    width: 235px;
+    height: 190px;
+    border-radius: 14px;
+    background-image: url(../../../../public/coffee.jpg);
+    background-size: cover;
+    background-position: 0px -120px;
+    background-repeat: no-repeat;
+}
+.lower_col{
+    width: 225px;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.lh_txt{
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+}
+.lower_col_ui{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
