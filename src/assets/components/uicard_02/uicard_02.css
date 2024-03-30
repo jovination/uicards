@@ -20,11 +20,38 @@
     height: 35px;
     background: #EEF2F5;
     border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.global_icon{
+    width: 15px;
+}
+.business_icon{
+    width: 15px;
+}
+.entertainment_icon{
+    width: 20px;
+}
+.sport_icon{
+    width: 16px;
+}
+.health_icon{
+    width: 16px;
+}
+
 .btnF{
     font-family: Poppins-Medium;
     font-size: 13px;
     color: #ABB0B4;
+}
+#active{
+    & .btn_ui{
+    background: #5471F3;
+    }
+    & .btnF{
+    color: #111;
+    }
 }
 .btns_wrap{
     width: 140px;
