@@ -5,4 +5,26 @@
     background: #FBFCFE;
     box-shadow: 1px 5px 10px rgba(100,100,100,0.11);
 }
+.search_bar{
+    display: flex;
 
+}
+.search-btn{
+    width: 40px;
+    height: 40px;
+    background: #5471F3;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_icon{
+    width: 30px;
+}
+#search_input{
+ width: 250px;
+ outline: none;
+ border: none;
+ background: #E9EAEE;
+}
