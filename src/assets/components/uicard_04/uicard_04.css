@@ -15,8 +15,8 @@
 }
 
 .search-btn{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     background: #5471F3;
     border-radius: 6px;
     border: none;
@@ -26,12 +26,12 @@
 }
 
 .search_icon{
-    width: 30px;  
+    width: 25px;  
 }
 #search_input{
 width: 260px;
 padding:0 10px 0 10px; 
-height: 40px;
+height: 45px;
 outline: none;
 border: none;
 background: #E9EAEE;
