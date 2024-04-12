@@ -37,3 +37,34 @@ border: none;
 background: #E9EAEE;
 border-radius: 6px;
 }
+.link a{
+    text-decoration: none;
+    color: #111;
+    font-size: 13px;
+    font-weight: 600;
+}
+ul .link{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.form_ui{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+.search_cat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
